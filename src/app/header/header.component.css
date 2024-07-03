@@ -44,6 +44,9 @@ header ul li a {
     text-align: center;
     margin: 70px auto;
 }
+.overlay-content {
+    z-index: 60px;
+}
 .logo {
     display: flex;
     justify-content: center;
