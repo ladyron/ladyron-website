@@ -5,20 +5,20 @@
    
   </div> -->
 <section>
-    <a href="javascript:void(0)" (click)="toggleOverlay()" id="menu"><i style="font-size:2em; color: #bb9bb0;" class="fa-solid fa-bars"></i></a>
+    <a aria-label="Open menu" href="javascript:void(0)" (click)="toggleOverlay()" id="menu"><i style="font-size:2em; color: #bb9bb0;" class="fa-solid fa-bars"></i></a>
     <header>
         <div id="nav-overlay">
             <div class="overlay-content">
-                <a class="x" href="javascript:void(0);" (click)="closeOverlay($event)"><i class="fa-solid fa-xmark" style="color: #bb9bb0;"></i></a>
+                <a class="x" aria-label="Open menu" href="javascript:void(0);" (click)="closeOverlay($event)"><i class="fa-solid fa-xmark" style="color: #bb9bb0;"></i></a>
                 <div id="logo-icon" class="logo">
                     <img width=150 src="/assets/ladyron-logo.svg" alt="Lady Ron logo">
                     <h1>Lady Ron</h1>
                 </div>
                 <nav>
                     <ul id="nav-links">
-                        <!-- <li><a (click)="navFunction()" class="transition" title="Profile" href="#profile" target="_top">Profile</a></li>
-                        <li><a (click)="navFunction()" class="transition" title="Portfolio" href="#portfolio" target="_top">Portfolio</a></li>
-                        <li><a (click)="navFunction()" class="transition" title="Contact" href="#contact" target="_top">Contact</a></li> -->
+                        <!-- <li><a (click)="navFunction()" class="transition" aria-label="Link to profile section" title="Profile" href="#profile" target="_top">Profile</a></li>
+                        <li><a (click)="navFunction()" class="transition" title="Portfolio" aria-label="Link to portfolio section" href="#portfolio" target="_top">Portfolio</a></li>
+                        <li><a (click)="navFunction()" class="transition" title="Contact" aria-label="Link to contact section" href="#contact" target="_top">Contact</a></li> -->
                     </ul>
                 </nav> 
             </div>
